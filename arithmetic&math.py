@@ -33,10 +33,10 @@ import math
 
 # print(math.pi)
 # print(math.e)
-result = math.sqrt(16)
-result2 = math.ceil(3.14)
-result3 = math.floor(9.9)
+# result = math.sqrt(16)
+# result2 = math.ceil(3.14)
+# result3 = math.floor(9.9)
 
-print(result)
-print(result2)
-print(result3)
+# print(result)
+# print(result2)
+# print(result3)
