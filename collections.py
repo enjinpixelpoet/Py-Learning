@@ -38,4 +38,4 @@ fruits = ("apple", "cherry", "banana", "coconut", "coconut")
 
 # print(fruits.count("coconut"))
 # print(fruits.index("coconut"))
-print("coconut" in fruits)
+# print("coconut" in fruits)

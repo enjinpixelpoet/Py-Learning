@@ -3,12 +3,10 @@
 # and = both is true
 # not = inversion
 
-temp = 39
-is_raining = False
+temp = 20
+is_sunny = True
 
-if temp > 30 or not is_raining:
+if temp >= 28 or is_sunny:
     print("It's a hot day")
-elif temp <= 30 and is_raining:
-    print("It's a raining day")
-else:
-    print("It's not a hot day")
+elif temp <= 20 and not is_sunny:
+    print("It's a cold day")

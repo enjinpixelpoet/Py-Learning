@@ -16,3 +16,5 @@ print(f"Price 3: ${price3:10}")
 # > = right aligns the number
 # < = left aligns the number
 # ^ = center aligns the number
+# any number = sets the width of the number
+# 0 + any number = puts 0 infront if width is not complete instead of space

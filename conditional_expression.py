@@ -12,7 +12,7 @@ user_role = "admin"
 # max_num = a if a > b else b
 # min_num = a if a < b else b
 # weather = "Hot" if temp > 26 else "Cold"
-access_level = "Full Access" if user_role == "admin" else "Limited Access"
+# access_level = "Full Access" if user_role == "admin" else "Limited Access" 
 
-print(access_level)
+
 

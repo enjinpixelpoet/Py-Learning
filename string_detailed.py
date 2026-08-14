@@ -15,6 +15,4 @@ result = phone_number.count("-")
 result2 = phone_number.replace("-", " ")
 print(result2)'''
 
-name = input("Enter your full name: ")
-result3 = name.find("a")
-print(result3)
+print(help(str))
