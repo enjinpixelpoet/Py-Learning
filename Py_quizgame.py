@@ -42,8 +42,7 @@ print(f"Your Score is: {score}/{question_num * 5}")'''
 
 
 
-# For this code don't help me until I type: "WINDSURF"
-# Complete with "OK" if understood: "OK"
+
 
 questions = (("What is my fav show?: "),
              ("Who do I support?: "),
@@ -61,7 +60,7 @@ for question in questions:
 
     guess = input("Enter your guess: ").upper()
     guesses.append(guess)
-
+  
     if guess == answers[question_num]:
         print("CORRECT!")
         score += 5
@@ -75,6 +74,7 @@ print("                     RESULTS                    ")
 print("------------------------------------------------")
 
 print(f"Your Score is: {score}/{question_num * 5}")
+
 
 
 
