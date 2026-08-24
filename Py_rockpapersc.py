@@ -1,37 +1,36 @@
-# Game of rock paper scissors:
+# Rock paper scissors game:
 
 import random
 
-a = random.randint(1, 3)
-if a == 1:
-    computer = "rock"
-elif a == 2:
-    computer = "paper"
+print("---x------Rock Paper Scissors Game------x---")
+
+option = random.randint(1, 3)
+
+option2 = int(input("Enter 1 for rock, 2 for paper, 3 for scissors: "))
+
+while option2 < 1 or option2 > 3:
+    print("Invalid choice!")
+    option2 = int(input("Enter 1 for rock, 2 for paper, 3 for scissors: "))
+
+
+if option == 1:
+    print("Computer chooses rock!")
+elif option == 2:
+    print("Computer chooses paper!")
 else:
-    computer = "scissors"
+    print("Computer chooses scissors!")
 
+if option2 == 1:
+    print("You choose rock!")
+elif option2 == 2:
+    print("You choose paper!")
+elif option2 == 3:
+    print("You chooses scissors!")
 
-while True:
-    b = int(input("Enter a choice (1 for rock, 2 for paper, 3 for scissors): "))
-    if not b > 3 or  not b < 1:
-        pass
-    else:
-        print("Please enter a valid option")
-        continue
-    if b == 1:
-        player = "rock"
-    elif b == 2:
-        player = "paper"
-    else:
-        player = "scissors"
+if option == option2:
+    print("It's a draw!")
+elif (option2 - option) == 2 or (option2 - option) == -1:
+    print("Computer wins!")
+else: 
+    print("You win!")
 
-    print(f"Computer's Choice: {computer}")
-    print(f"Player's Choice: {player}")
-
-    
-    if a == b:
-        print("It's a draw!")
-    elif (b-a) % 3 == 1:
-        print("Player wins!")
-    else: 
-        print("Computer wins!")

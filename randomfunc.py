@@ -8,6 +8,6 @@ cards = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
 # number = random.randint(low, high)
 # number = random.random()
 # option = random.choice(options)
-random.shuffle(cards)
+# random.shuffle(cards)
 
-print(cards)
+print(random.randint(1, 3))
