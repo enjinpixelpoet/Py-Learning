@@ -34,3 +34,4 @@ for key, value in capitals.items():
     
 
 print(capitals.get("USA"))
+print("Thank you")
